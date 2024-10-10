@@ -1,0 +1,60 @@
+body{
+  height: 100vh;
+  background-image: linear-gradient(#D8C7FF, #19006C);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.button-style:hover{
+  background-color: white;
+  color:  #19006C;
+  border-color: #19006C;
+}
+.button-style{
+  border-color: #19006C;
+  color:  #19006C;
+}
+.next-button{
+  background-color: #5433c0;
+  color: white;
+  border-color: #5433c0;
+  font-weight: bold;
+}
+.next-button:hover{
+  background-color: #44299e !important;;
+  border-color: #5433c0;
+}
+.button-style:focus, 
+.button-style:active {
+  background-color: transparent !important; 
+  box-shadow: none !important; 
+  color: #19006C !important; 
+}
+.next-button:focus,
+.next-button:active{
+  background-color:  #5433c0 !important; 
+  box-shadow: none !important; 
+  color:white !important; 
+}
+.next-button:disabled{
+  background-color: #5433c0;
+  color: white;
+  border-color: #5433c0;
+  font-weight: bold;
+}
+
+
+.button-style:disabled {
+  pointer-events: none;
+  opacity: 1; 
+  border-color: #19006C;
+  color:  #19006C;
+  background-color: transparent; 
+}
+.correct{
+  color: rgb(73, 255, 73);
+}
+.wrong{
+  color: rgb(218, 53, 3);
+}
